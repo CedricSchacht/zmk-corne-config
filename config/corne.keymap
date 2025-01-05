@@ -13,12 +13,12 @@
 
 / {
     macros {
-        eurkb_a_uml: eurkb_a_uml {
+        eurkb_a_uml: a_uml {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_press>, <&kp RA(U) &kp A>, <&macro_release>;
 
-            label = "EURKB_A_UML";
+            label = "A_UML";
         };
 
         eurkb_u_uml: eurkb_u_uml {
