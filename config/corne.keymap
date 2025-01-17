@@ -12,9 +12,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-    chosen {
-        zmk,backlight = &pwm0;
-    }
     macros {
         eurkb_a_uml: a_uml {
             compatible = "zmk,behavior-macro";
