@@ -1,8 +1,0 @@
-&pwm0 {
-    status = "okay";
-    zmk,backlight {
-        label = "Keyboard Backlight";
-        pwm-channel = <0>;
-        pwm-period = <100000>;
-    };
-};
