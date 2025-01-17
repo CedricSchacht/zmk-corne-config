@@ -1,0 +1,19 @@
+&i2c1 {
+    status = "okay";
+    sda-pin = <4>;
+    scl-pin = <5>;
+    clock-frequency = <I2C_SPEED_STANDARD>;
+};
+
+&i2c1 {
+    oled_display: oled_display@3c {
+        compatible = "ssd1306";
+        reg = <0x3C>;
+        width = <128>;
+        height = <64>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-height = <32>;
+        status = "okay";
+    };
+};
